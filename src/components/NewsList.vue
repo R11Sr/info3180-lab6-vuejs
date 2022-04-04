@@ -51,18 +51,7 @@ export default {
                 })
         }
     }
-    //  created(){
-    //     fetch('https://newsapi.org/v2/top-headlines?country=us',{
-    //         headers:{
-    //             'Authorization': `Bearer ${import.meta.env.VITE_NEWSAPI_TOKEN}`
-    //         }
-    //     }).then((response)=>{
-    //         return response.json();
-    //     }).then((data)=>{
-    //         console.log(data);
-    //         this.articles = data.articles;
-    //         })
-    // }
+
 
 }
 </script>
