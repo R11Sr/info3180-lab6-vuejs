@@ -10,6 +10,8 @@ import AppFooter from "@/components/AppFooter.vue";
   <main>
     <RouterView />
   </main>
+
+  <NewsList />
   
   <AppFooter />
 </template>
